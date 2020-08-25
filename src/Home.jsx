@@ -4,6 +4,7 @@ const Home = () => {
   return (
     <div>
       <h1 id="title">Felix Oppong Willborg</h1>
+      <img id="FelixProfil" src="./image/FelixProfil.png" />
       <button id="aboutMeBtn">About me</button>
       <button id="projectsBtn">Projects</button>
       <button id="cvBtn">Resumé</button>
