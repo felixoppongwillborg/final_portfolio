@@ -1,5 +1,4 @@
 body {
-  background-color: cornflowerblue;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -15,4 +14,24 @@ code {
 #FelixProfil{
   height: 250px;
   width: 250px;
+}
+#Home-section{
+  height: 100vh;
+  background-color: crimson;
+}
+#AboutMe-section{
+  height: 100vh;
+  background-color: cyan;
+}
+#Projects-section{
+  height: 100vh;
+  background-color: darkgoldenrod;
+}
+#Cv-section{
+  height: 100vh;
+  background-color: darkgreen;
+}
+#MySunday-section{
+  height: 100vh;
+  background-color: peru;
 }
