@@ -9,13 +9,13 @@ import MySunday from './sections/MySunday';
 
 function App() {
   return (
-    <>
+    <div>
       <Home />
       <AboutMe />
       <Projects />
       <Cv />
       <MySunday />
-    </>
+    </div>
   );
 }
 
