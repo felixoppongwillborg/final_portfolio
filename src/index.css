@@ -17,21 +17,25 @@ code {
 }
 #Home-section{
   height: 100vh;
-  background-color: rgb(123, 92, 98);
+  background-color: #2f4f4f;
 }
 #AboutMe-section{
   height: 100vh;
-  background-color: cyan;
+  background-color:#2f4f4f;
 }
 #Projects-section{
   height: 100vh;
-  background-color: darkgoldenrod;
+  background-color: #2f4f4f;
 }
 #Cv-section{
   height: 100vh;
-  background-color: darkgreen;
+  background-color: #2f4f4f;
 }
 #MySunday-section{
   height: 100vh;
-  background-color:peru;
+  background-color:#2f4f4f;
 }
+* {
+  margin:0;
+  padding:0;
+  }
