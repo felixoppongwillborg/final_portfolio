@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
+import { Button } from "semantic-ui-react";
 
 const Cv = () => {
   return (
@@ -14,7 +15,9 @@ const Cv = () => {
         offset={-30}
         duration={1500}
       >
-        <button id="mySundayBtn">Act out my Sunday</button>
+        <Button basic inverted size="massive" id="mySundayBtn">
+          Act out my Sunday
+        </Button>
       </Link>
     </div>
   );

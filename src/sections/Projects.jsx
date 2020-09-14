@@ -1,5 +1,6 @@
-import React from 'react'
+import React from "react";
 import { Link } from "react-scroll";
+import { Button } from "semantic-ui-react";
 
 const Projects = () => {
   return (
@@ -14,11 +15,12 @@ const Projects = () => {
         offset={-30}
         duration={1500}
       >
-        <button id="cvBtn">Resumé</button>
+        <Button basic inverted size="massive" id="cvBtn">
+          Resumé
+        </Button>
       </Link>
     </div>
-  )
-}
+  );
+};
 
-
-export default Projects
+export default Projects;

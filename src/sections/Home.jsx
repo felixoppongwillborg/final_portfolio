@@ -1,11 +1,17 @@
 import React from "react";
 import { Link } from "react-scroll";
+import { Button, Image } from "semantic-ui-react";
 
 const Home = () => {
   return (
     <div id="Home-section">
-      <img id="FelixProfil" src="./image/FelixProfil.png" alt="" />
+      <Image size="medium" circular id="FelixProfil" src="./image/FelixProfil.png" alt="" />
       <h1 id="title">Felix Oppong Willborg</h1>
+      <div id="shortIntro">
+      <h2>Full Stack developer</h2>
+      <h2>Full Stack developer</h2>
+      <h2>Full Stack developer</h2>
+      </div>
       <Link
         to="AboutMe-section"
         activeClass="active"
@@ -14,8 +20,11 @@ const Home = () => {
         offset={-30}
         duration={1500}
       >
-        <button id="aboutMeBtn">About me</button>
+        <Button basic inverted size="massive" id="aboutMeBtn">
+          About me
+        </Button>
       </Link>
+      
     </div>
   );
 };
