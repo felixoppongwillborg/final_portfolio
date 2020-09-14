@@ -8,9 +8,9 @@ const Home = () => {
       <Image size="medium" circular id="FelixProfil" src="./image/FelixProfil.png" alt="" />
       <h1 id="title">Felix Oppong Willborg</h1>
       <div id="shortIntro">
-      <h2>Full Stack developer</h2>
-      <h2>Full Stack developer</h2>
-      <h2>Full Stack developer</h2>
+      <h2>-Test & behaviour driven developer.</h2>
+      <h2>-Innovative & Hands-on</h2>
+      <h2>-Extensive experience working in B2B and B2C roles.</h2>
       </div>
       <Link
         to="AboutMe-section"
