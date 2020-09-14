@@ -11,7 +11,7 @@ const Cv = () => {
         activeClass="active"
         spy={true}
         smooth={true}
-        offset={-70}
+        offset={-30}
         duration={1500}
       >
         <button id="mySundayBtn">Act out my Sunday</button>
