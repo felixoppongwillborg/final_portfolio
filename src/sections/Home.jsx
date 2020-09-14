@@ -1,16 +1,55 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-scroll";
 
 const Home = () => {
+  debugger
   return (
     <div id="Home-section">
       <h1 id="title">Felix Oppong Willborg</h1>
       <img id="FelixProfil" src="./image/FelixProfil.png" alt="" />
-      <button onClick id="aboutMeBtn">About me</button>
-      <button id="projectsBtn">Projects</button>
-      <button id="cvBtn">Resumé</button>
-      <button id="mySundayBtn">Act out my Sunday</button>
+      <Link
+        to="AboutMe-section"
+        activeClass="active"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={1500}
+      >
+        <button id="aboutMeBtn">About me</button>
+      </Link>
+      
+      <Link
+        to="Projects-section"
+        activeClass="active"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={1500}
+      >
+        <button id="projectsBtn">Projects</button>
+      </Link>
+      <Link
+        to="Cv-section"
+        activeClass="active"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={1500}
+      >
+        <button id="cvBtn">Resumé</button>
+      </Link>
+      <Link
+        to="MySunday-section"
+        activeClass="active"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={1500}
+      >
+        <button id="mySundayBtn">Act out my Sunday</button>
+      </Link>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
