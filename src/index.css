@@ -14,6 +14,7 @@ code {
 #shortIntro{
   margin-left:55vw;
   margin-top: -65vh;
+  color:white;
 }
 #FelixProfil {
   top: 19vh;
@@ -22,6 +23,13 @@ code {
 #title {
   margin-top: 25vh;
   margin-left: 13vw;
+  color: white;
+}
+#subTitle{
+  color: white;
+}
+#text{
+  color:white;
 }
 #aboutMeBtn {
   display: inline-block;
@@ -32,7 +40,7 @@ code {
 #projectsBtn {
   display: inline-block;
   margin-left: 40%;
-  margin-top: 65vh
+  margin-top: 55vh
 }
 #cvBtn {
   display: inline-block;
@@ -50,19 +58,19 @@ code {
 }
 #AboutMe-section {
   height: 100vh;
-  background-color: #008080;
+  background-color: #2f4454;
 }
 #Projects-section {
   height: 100vh;
-  background-color: #008080;
+  background-color: #2f4454;
 }
 #Cv-section {
   height: 100vh;
-  background-color: #008080;
+  background-color: #2f4454;
 }
 #MySunday-section {
   height: 100vh;
-  background-color: #008080;
+  background-color: #2f4454;
 }
 * {
   margin: 0;

@@ -5,8 +5,8 @@ import { Button } from "semantic-ui-react";
 const Cv = () => {
   return (
     <div id="Cv-section">
-      <h1>My Resumé</h1>
-      <p>This is my Resumé</p>
+      <h1 id="subTitle">My Resumé</h1>
+      <p id="text">This is my Resumé</p>
       <Link
         to="MySunday-section"
         activeClass="active"

@@ -5,8 +5,8 @@ import { Button } from "semantic-ui-react";
 const MySunday = () => {
   return (
     <div id="MySunday-section">
-      <h1>Play my Sunday</h1>
-      <p>This is my Sunday</p>
+      <h1 id="subTitle">Play my Sunday</h1>
+      <p id="text">This is my Sunday</p>
       <Link
         to="Home-section"
         activeClass="active"
