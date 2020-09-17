@@ -1,12 +1,10 @@
 import React from "react";
 import { Link } from "react-scroll";
-import { Button, Segment, Container } from "semantic-ui-react";
+import { Button } from "semantic-ui-react";
 
 const AboutMe = () => {
   return (
     <div id="AboutMe-section">
-      <Container>
-        <Segment.Group raised>
           <h1 id="subTitle">About me!</h1>
           <h3 id="text">
             {" "}
@@ -23,8 +21,6 @@ const AboutMe = () => {
             Hands-on, innovative and a problem solver with keen attention to
             details.
           </h3>
-        </Segment.Group>
-      </Container>
       <Link
         to="Projects-section"
         activeClass="active"

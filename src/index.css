@@ -26,9 +26,13 @@ code {
   color: white;
 }
 #subTitle{
+  padding-top:16vh;
+  padding-left:13vw;
   color: white;
 }
 #text{
+  padding-left: 13vw;
+  padding-right: 13vw;
   color:white;
 }
 #aboutMeBtn {
@@ -40,17 +44,17 @@ code {
 #projectsBtn {
   display: inline-block;
   margin-left: 40%;
-  margin-top: 55vh
+  margin-top: 30vh
 }
 #cvBtn {
   display: inline-block;
   margin-left: 40%;
-  margin-top: 65vh
+  margin-top: 30vh
 }
 #mySundayBtn {
   display: inline-block;
   margin-left: 40%;
-  margin-top: 65vh
+  margin-top: 30vh
 }
 #Home-section {
   height: 100vh;
@@ -97,3 +101,26 @@ code {
   right: 15vw;
   border-width: 0 2px 2px 0;
 }
+
+#AboutMe-section:after, 
+#AboutMe-section>:last-child:after {
+    position: absolute;
+    width: 60px; 
+    height: 50px;
+    border-color: white; 
+    border-style: solid;
+    content: ' ';
+}
+
+#AboutMe-section:after {
+    top: 115vh;
+    right: 15vw;
+    border-width: 2px 2px 0 0
+}
+
+#AboutMe-section>:last-child:after {
+    bottom: -85vh;
+    left: 15vw;
+    border-width: 0 0 2px 2px
+}
+
