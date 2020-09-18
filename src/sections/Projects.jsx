@@ -6,7 +6,6 @@ const Projects = () => {
   return (
     <div id="Projects-section">
       <h1 id="subTitle">My Projects</h1>
-      <p id="text">This is my projects</p>
       <Link
         to="Cv-section"
         activeClass="active"

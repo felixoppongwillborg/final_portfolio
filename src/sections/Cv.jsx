@@ -16,7 +16,7 @@ const Cv = () => {
         duration={1500}
       >
         <Button basic inverted size="massive" id="mySundayBtn">
-          Act out my Sunday
+          My Sunday
         </Button>
       </Link>
     </div>

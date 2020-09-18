@@ -11,10 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-#shortIntro{
-  margin-left:55vw;
+#shortIntro {
+  margin-left: 55vw;
   margin-top: -65vh;
-  color:white;
+  color: white;
 }
 #FelixProfil {
   top: 19vh;
@@ -25,36 +25,35 @@ code {
   margin-left: 13vw;
   color: white;
 }
-#subTitle{
-  padding-top:16vh;
-  padding-left:13vw;
+#subTitle {
+  padding-top: 16vh;
+  padding-left: 13vw;
   color: white;
 }
-#text{
+#text {
   padding-left: 13vw;
   padding-right: 13vw;
-  color:white;
+  color: white;
 }
 #aboutMeBtn {
   display: inline-block;
-  margin-left: 40vw;
-  margin-top: 40vh
-
+  margin-left: 40%;
+  margin-top: 40vh;
 }
 #projectsBtn {
   display: inline-block;
   margin-left: 40%;
-  margin-top: 30vh
+  margin-top: 30vh;
 }
 #cvBtn {
   display: inline-block;
   margin-left: 40%;
-  margin-top: 30vh
+  margin-top: 30vh;
 }
 #mySundayBtn {
   display: inline-block;
   margin-left: 40%;
-  margin-top: 30vh
+  margin-top: 30vh;
 }
 #Home-section {
   height: 100vh;
@@ -89,38 +88,57 @@ code {
   border-style: solid;
   content: " ";
 }
-
 #Home-section:before {
   top: 15vh;
   left: 15vw;
   border-width: 2px 0 0 2px;
 }
-
 #Home-section > :last-child:before {
   bottom: 15vh;
   right: 15vw;
   border-width: 0 2px 2px 0;
 }
-
-#AboutMe-section:after, 
-#AboutMe-section>:last-child:after {
-    position: absolute;
-    width: 60px; 
-    height: 50px;
-    border-color: white; 
-    border-style: solid;
-    content: ' ';
+#AboutMe-section:after,
+#AboutMe-section > :last-child:after {
+  position: absolute;
+  width: 60px;
+  height: 50px;
+  border-color: white;
+  border-style: solid;
+  content: " ";
 }
-
 #AboutMe-section:after {
-    top: 115vh;
-    right: 15vw;
-    border-width: 2px 2px 0 0
+  top: 115vh;
+  right: 15vw;
+  border-width: 2px 2px 0 0;
 }
-
-#AboutMe-section>:last-child:after {
-    bottom: -85vh;
-    left: 15vw;
-    border-width: 0 0 2px 2px
+#AboutMe-section > :last-child:after {
+  bottom: -85vh;
+  left: 15vw;
+  border-width: 0 0 2px 2px;
+}
+#Projects-section:after{
+  position: absolute;
+  height: 50vh;
+  border-color: white;
+  border-style: solid;
+  content:" "; 
+} 
+#Projects-section:after {
+  top: 223vh;
+  right: 15vw;
+  border-width: 0 2px 0 0;
+}
+#Projects-section:before{
+  position: absolute;
+  height: 50vh;
+  border-color: white;
+  border-style: solid;
+  content:" "; 
+} 
+#Projects-section:before {
+  top: 223vh;
+  left: 15vw;
+  border-width: 0 2px 2px 0;
 }
 
